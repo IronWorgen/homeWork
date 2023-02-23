@@ -1,9 +1,11 @@
-﻿// максимальное из 3-х чисел
+﻿// вопрос по преобразованию типов: "В чем разница между int.Parse() и Convert.ToInt()? И в каких ситуациях, что использовать?"
 
 Console.WriteLine("Введите чило №1");
 int number1 = Convert.ToInt32 (Console.ReadLine());
+
 Console.WriteLine("Введите чило №2");
 int number2 = Convert.ToInt32 (Console.ReadLine());
+
 Console.WriteLine("Введите чило №3");
 int number3 = Convert.ToInt32 (Console.ReadLine());
 

@@ -1,10 +1,29 @@
-﻿Console.WriteLine("Введите число");
+﻿int n=0;
+bool triger = true;
+//проверка введенного числа 
+while ( triger ){
 
-int n = Convert.ToInt32(Console.ReadLine());
+    Console.WriteLine("Введите натуральное число > 1");
+    n = int.Parse(Console.ReadLine());
 
-for (int i = 2; i< n ;i++){
-    if (i%2==0){
-        Console.Write("{0}, ",i);
+    if (n > 1){
+        triger = false;
     }
-    
 }
+ 
+int counter=2;
+
+while (counter <=n){
+    
+        if (counter%2==0){
+            Console.Write(counter);
+
+            if (counter + 2 <= n ){
+                Console.Write(", ");
+            }else break;
+        }
+    counter+=2;
+}
+
+
+

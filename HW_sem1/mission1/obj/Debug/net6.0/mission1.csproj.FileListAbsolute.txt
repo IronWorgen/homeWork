@@ -1,0 +1,15 @@
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\bin\Debug\net6.0\mission1.exe
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\bin\Debug\net6.0\mission1.deps.json
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\bin\Debug\net6.0\mission1.runtimeconfig.json
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\bin\Debug\net6.0\mission1.dll
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\bin\Debug\net6.0\mission1.pdb
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.csproj.AssemblyReference.cache
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.AssemblyInfoInputs.cache
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.AssemblyInfo.cs
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.csproj.CoreCompileInputs.cache
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.dll
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\refint\mission1.dll
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.pdb
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\mission1.genruntimeconfig.cache
+D:\Программирование\C#\GB\HW1\HW_sem1\mission1\obj\Debug\net6.0\ref\mission1.dll

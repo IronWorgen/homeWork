@@ -8,12 +8,12 @@ double maxMinusMin(int len){
     double minNum=0;
 
     for ( int i = 0; i < len; i++){
-        arr[i] = rand.Next(-10,10)+ Math.Round(rand.NextDouble(),2);
+        arr[i] = rand.Next(-10,10)+ Math.Round(rand.NextDouble(), 2);
         if (arr[i]<minNum){minNum = arr[i];}
         if (arr[i]>maxNum){maxNum = arr[i];}
         
     }
-    return Math.Round(maxNum - minNum,2);
+    return Math.Round(maxNum - minNum, 2);
 
 }
 

@@ -63,8 +63,8 @@ int[,] multiplyMatrix(int[,] firstMatrix, int[,] secondMatrix)
     return resutMatrix;
 }
 
-int[,] array1 = createArray(4, 2);
-int[,] array2 = createArray(5, 3);
+int[,] array1 = createArray(3, 5);
+int[,] array2 = createArray(5, 2);
 
 Console.WriteLine("Матрица 1 ");
 printArray(array1);

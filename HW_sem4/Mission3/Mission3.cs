@@ -1,7 +1,7 @@
 ﻿//Напишите программу, которая задаёт массив и выводит его на экран.
 
 int[] arrPrint (int len){
-    
+
     int[] arr =  new int[len];
     Random rand = new Random();
 

@@ -63,17 +63,17 @@ int[,] multiplyMatrix(int[,] firstMatrix, int[,] secondMatrix)
     return resutMatrix;
 }
 
-int[,] array1 = createArray(3, 5);
-int[,] array2 = createArray(5, 2);
+int[,] array1 = createArray(2, 3);
+int[,] array2 = createArray(3, 2);
 
-Console.WriteLine("Матрица 1 ");
+Console.WriteLine("Матрица 1: ");
 printArray(array1);
-Console.WriteLine("Матрица 2 ");
+Console.WriteLine("Матрица 2: ");
 printArray(array2);
 
 if (canMultiplyMatrix(array1, array2))
 {
-    Console.WriteLine("Результат");
+    Console.WriteLine("Результат:");
     printArray(multiplyMatrix(array1, array2));
 }
 else Console.WriteLine("Невозможно перемножть эти матрицы");

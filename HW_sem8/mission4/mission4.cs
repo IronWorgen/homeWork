@@ -23,7 +23,7 @@ int[,,] createArray(int m, int n, int p)
                 do
                 {
                     nextItemInMatrix = false;
-                    nextNumber = rand.Next(10,100);
+                    nextNumber = rand.Next(10, 100);
                     foreach (int item in array)
                     {
                         if (item == nextNumber)
@@ -34,7 +34,7 @@ int[,,] createArray(int m, int n, int p)
                     }
 
                 } while (nextItemInMatrix);
-                array[i,j,k]=nextNumber;
+                array[i, j, k] = nextNumber;
             }
         }
     }
@@ -42,18 +42,21 @@ int[,,] createArray(int m, int n, int p)
 }
 
 //печать массива
-void printArray(int [,,] array ){
+void printArray(int[,,] array)
+{
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
             for (int k = 0; k < array.GetLength(2); k++)
             {
-                Console.Write($"{array[i,j,k]}({i}, {j}, {k})\t");
-            }Console.WriteLine();
-        }Console.WriteLine("-------------------------------");
+                Console.Write($"{array[i, j, k]}({i}, {j}, {k})\t");
+            }
+            Console.WriteLine();
+        }
+        Console.WriteLine("-------------------------------");
     }
 }
 
-int[,,] array = createArray(2,2,2);
-printArray(array );
+int[,,] array = createArray(2, 2, 2);
+printArray(array);
